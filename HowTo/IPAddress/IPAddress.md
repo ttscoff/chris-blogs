@@ -23,7 +23,7 @@ Oracle cloud calls a VM "Compute". So create one of those using these steps whic
 
 ## Step 3 - Get Uour Router's IP Address
 
-From my blog post ![How do I find my router's public IP Address from the command line?](http://chrisbensen.blogspot.com/2021/11/how-do-i-find-my-routers-public-ip.html), open up a local Terminal and run the following command to get your router's IP address copy it:
+From my blog post [How do I find my router's public IP Address from the command line?](http://chrisbensen.blogspot.com/2021/11/how-do-i-find-my-routers-public-ip.html), open up a local Terminal and run the following command to get your router's IP address copy it:
 
   ```
   dig -4 TXT +short o-o.myaddr.l.google.com @ns1.google.com
